@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+ title: API Title Bla bla bla
+ version: '1.0'
+ description: 'open API docs'
+ contact:
+   email: sai@mobiuslabs.com
+   name: Sai Kamat
+   url: www.mobiuslabs.com
+ license:
+   name: Apache 2.0
+   url: www.apache.org
+servers:
+  - url: http://127.0.0.1/
+    description: Mobius hostx
+  
+paths:
+  /v1/customers/:
+    post:
+      description: 
+      responses:
+        '200':
+          description: List of customers
+
+
+
+
+
