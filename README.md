@@ -2,6 +2,13 @@
 
 Simple CRUD API to practice REST basics.
 
+FastAPI is a modern, high-performance Python web framework for building APIs.
+
+## What is FastAPI?
+Framework: Lets you build RESTful APIs quickly and easily in Python.
+Based on: Starlette (for web parts) and Pydantic (for data validation).
+Async support: Natively supports asynchronous code for high performance.
+
 ## Quickstart
 ```bash
 python -m venv .venv && source .venv/bin/activate   # on Windows: .venv\Scripts\activate
