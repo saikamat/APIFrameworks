@@ -13,6 +13,7 @@ Async support: Natively supports asynchronous code for high performance.
 ```bash
 python -m venv .venv && source .venv/bin/activate   # on Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+cd REST-API
 uvicorn app.main:app --reload
 ```
 
