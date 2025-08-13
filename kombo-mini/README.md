@@ -5,6 +5,20 @@ Kombo builds a unified API for HR Payroll & recruiting systems.
 Think of the operation connecting multiple devices into your laptop. Each device has various ways of connecting with your laptop, such as via RJ45, USB-B, USB-C, image Card, HDMI etc.
 
 Kombi acts like a universal dock where all devices connect and all Kombi needs is a single endpoint into your laptop.
+```mermaid
+flowchart LR
+    A(Client) --> B(Unified API)
+    B a1@--> C(Mapping Layer)
+    subgraph Model
+        C a2@--> D(Provider Adapter BambooHR)
+        C a3@--> E(Provider Adapter Personio)
+        C a4@--> F(Provider Adapter Workday)
+    end
+    a1@{ animation: fast }
+    a2@{ animation: fast }
+    a3@{ animation: fast }
+    a4@{ animation: fast }
+```
 
 ## Challenges
 - Integrating with nearly 50+ APIs is painful
